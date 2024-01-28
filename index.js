@@ -87,7 +87,7 @@ app.get('/oauth2callback', async (req, res) => {
 });
 
 app.get('', (req, res) => {
-  res.sendFile(__dirname + 'views/index.html');
+  res.sendFile(__dirname + '/index.html');
 });
 
 
@@ -119,8 +119,8 @@ app.get('/js/app.js',(req, res)=> {
     res.sendFile(path.join(__dirname, 'public','js','app.js'));
 });
 
-app.get('/views/index.html',(req, res)=> {
-    res.sendFile(path.join(__dirname, 'public','views','index.html'));
+app.get('/index.html',(req, res)=> {
+    res.sendFile(path.join(__dirname, 'public','index.html'));
 });
 
 
