@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  #main-section {
+    display: flex;
+  }
+  
+  #sidebar {
+    width: 40%;
+    background-color: #f4f4f4;
+    padding: 1em;
+  }
+  
+  #content {
+    flex: 1;
+    padding: 1em;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .month-select{
+    max-width: 200px;
+  }
+  
+  /* public/styles.css */
+  
+  /* ... (previous styles) */
+  
+  #filter-section {
+    width: 20%;
+  }
+  
+  #filter-section select {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+  }

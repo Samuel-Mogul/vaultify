@@ -1,0 +1,38 @@
+{
+  "name": "vaultifyx",
+  "version": "1.0.0",
+  "description": "Your Back Up partner",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "fs": "0.0.1-security",
+    "google-auth-library": "^9.5.0",
+    "googleapis": "^131.0.0",
+    "mongodb": "^6.3.0",
+    "nodemon": "^3.0.3"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "vercel"
+  ],
+  "author": "Samuel Mogul",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://https://github.com/Samuel-Mogul/VaultifyX1.git"
+  },
+  "bugs": {
+    "url": "https://https://github.com/Samuel-Mogul/VaultifyX1/issues"
+  },
+  "homepage": "https://vaultify-x1.vercel.app/"
+}
