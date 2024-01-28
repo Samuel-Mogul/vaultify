@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "public/*",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/auth",
+      "dest": "/index.js"
+    },
+    {
+      "src": "/oauth2callback",
+      "dest": "/index.js"
+    },
+    {
+      "src": "/get-emails",
+      "dest": "/index.js"
+    },
+    {
+      "src": "/check-auth",
+      "dest": "/index.js"
+    },
+    {
+      "src": "/backup-gmail",
+      "dest": "/index.js"
+    },
+    {
+      "src": "/download/:emailId",
+      "dest": "/index.js"
+    },
+    {
+      "src": "/distinct-years-and-months",
+      "dest": "/index.js"
+    },
+    {
+      "src": "/filter-emails",
+      "dest": "/index.js"
+    }
+  ]
+}
