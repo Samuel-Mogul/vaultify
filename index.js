@@ -87,7 +87,7 @@ app.get('/oauth2callback', async (req, res) => {
 });
 
 app.get('', (req, res) => {
-  res.sendFile(__dirname + '/index.html');
+  res.sendFile(__dirname + '/views/index.html');
 });
 
 
@@ -120,7 +120,7 @@ app.get('/js/app.js',(req, res)=> {
 });
 
 app.get('/index.html',(req, res)=> {
-    res.sendFile(path.join(__dirname, 'public','index.html'));
+    res.sendFile(path.join(__dirname, 'views', 'index.html'));
 });
 
 
