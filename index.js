@@ -87,7 +87,7 @@ app.get('/oauth2callback', async (req, res) => {
 });
 
 app.get('', (req, res) => {
-  res.sendFile(__dirname + '/views/index.html');
+  res.sendFile(__dirname + 'views/index.html');
 });
 
 
@@ -114,6 +114,16 @@ app.get('/backup-gmail', async (req, res) => {
 app.get('/css/main.css',(req, res)=> {
     res.sendFile(path.join(__dirname, 'public','css','main.css'));
 });
+
+app.get('/js/app.js',(req, res)=> {
+    res.sendFile(path.join(__dirname, 'public','js','app.js'));
+});
+
+app.get('/views/index.html',(req, res)=> {
+    res.sendFile(path.join(__dirname, 'public','views','index.html'));
+});
+
+
 
 app.get('/download/:emailId', (req, res) => {
   const emailId = req.params.emailId;
